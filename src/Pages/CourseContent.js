@@ -6,7 +6,10 @@ const CourseContent = () => {
 	const [modules, setModules] = useState([]);
 
 	useEffect(() => {
-		fetch("http://localhost:5000/get-modules", { method: "GET" })
+		fetch(
+			"https://kiwify-backend-ckgfv5i2p-itstanmaymitra.vercel.app/get-modules",
+			{ method: "GET" }
+		)
 			.then((res) => {
 				return res.json();
 			})

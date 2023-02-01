@@ -11,10 +11,16 @@ const MembersAreaNav = () => {
 					</div>
 				</div>
 				<div className="ml-4 flex items-center lg:mr-6">
-					<div>
-						<p>0%</p>
+					<div className="border-2 border-white/80 p-2 rounded-full h-10 w-10 flex justify-center items-center">
+						<p className="text-white font-semibold text-sm">0%</p>
 					</div>
-					<div></div>
+					<div className="rounded-full ml-5 border border-white h-10 w-10 cursor-pointer">
+						<img
+							className="w-full h-full rounded-full object-cover"
+							src="https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+							alt=""
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
